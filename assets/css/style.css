@@ -8,6 +8,10 @@ body {
     background-color: #d9dcd6;
 }
 
+/*******
+*Header*
+*******/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +24,7 @@ body {
     font-size: 48px;
 }
 
-/* Topbar with links to SEO, Online Rep and Social Media Marketing */
+/* nav bar at top with links to SEO, Online Rep and Social Media Marketing */
 
 .topbar {
     padding-top: 15px;
@@ -39,13 +43,13 @@ body {
     margin-left: 25px;
 }
 
-/* Link Color*/
+/* defines color for links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Paragraph Font Size*/
+/* defines paragraph font size */
 p {
     font-size: 16px;
 }
@@ -60,7 +64,7 @@ p {
     background-position: center;
 }
 
-/* Image positioning */
+/* defines image positioning */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,13 +75,18 @@ p {
     margin-left: 25px;
 }
 
-/*description for */
+/*******
+*section*
+********/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*******
+*aside for benefits*
+*******/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -137,6 +146,10 @@ p {
     max-width: 150px;
 }
 
+/********
+*sections*
+*********/
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -190,6 +203,10 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/********
+*footer*
+********/
 
 footer {
     padding: 30px;
