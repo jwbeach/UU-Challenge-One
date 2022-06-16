@@ -20,11 +20,9 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
+/* Topbar with links to SEO, Online Rep and Social Media Marketing */
 
-.header div {
+.topbar {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +30,27 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.topbar ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.topbar ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Link Color*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph Font Size*/
 p {
     font-size: 16px;
 }
 
+/* Main Background Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +60,7 @@ p {
     background-position: center;
 }
 
+/* Image positioning */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,6 +71,7 @@ p {
     margin-left: 25px;
 }
 
+/*description for */
 .content {
     width: 75%;
     display: inline-block;
@@ -188,13 +191,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
